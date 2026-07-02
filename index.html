@@ -1,0 +1,604 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Xuwer | Discover Businesses You'll Actually Love</title>
+    
+    <!-- SEO & Meta -->
+    <meta name="description" content="Xuwer intelligently connects people with businesses based on interests, preferences, and goals. Stop searching, start discovering.">
+    <meta property="og:title" content="Xuwer | Business Discovery Made Personal">
+    <meta property="og:description" content="Xuwer connects you with businesses you genuinely love, completely ad-free.">
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary_large_image">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <link rel="icon" href="assets/icons/xuwer-icon.webp" type="image/webp">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- NAVIGATION -->
+    <nav class="navbar" aria-label="Main Navigation">
+        <div class="container nav-container">
+            <a href="#" class="logo-link" aria-label="Xuwer Home">
+                <img src="assets/icons/xuwer-icon.webp" alt="Xuwer Icon" class="logo-img" width="32" height="32">
+                <span class="logo-text">Xuwer</span>
+            </a>
+            <div class="mobile-nav-overlay" id="mobile-nav-overlay"></div>
+            
+            <div class="nav-links" id="mobile-nav">
+                <div class="mobile-nav-header">
+                    <a href="#" class="logo-link" aria-label="Xuwer Home">
+                        <img src="assets/icons/xuwer-icon.webp" alt="Xuwer Icon" class="logo-img" width="32" height="32">
+                        <span class="logo-text">Xuwer</span>
+                    </a>
+                    <button class="close-menu-btn" id="close-menu-btn" aria-label="Close mobile menu">
+                        <svg class="close-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <line x1="18" y1="6" x2="6" y2="18"></line>
+                            <line x1="6" y1="6" x2="18" y2="18"></line>
+                        </svg>
+                    </button>
+                </div>
+                
+                <div class="mobile-nav-body">
+                    <a href="#features" class="nav-link">Features</a>
+                    <a href="#how-it-works" class="nav-link">How It Works</a>
+                    <a href="#why-xuwer" class="nav-link">Why Xuwer</a>
+                    <a href="#testimonials" class="nav-link">Testimonials</a>
+                    <a href="#faq" class="nav-link">FAQ</a>
+                </div>
+                
+                <div class="mobile-nav-footer">
+                    <a href="#get-started" class="btn btn-primary">Get Started</a>
+                </div>
+            </div>
+            
+            <button class="mobile-menu-btn" id="mobile-menu-btn" aria-label="Open mobile menu" aria-expanded="false" aria-controls="mobile-nav">
+                <svg class="hamburger-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <line x1="3" y1="12" x2="21" y2="12"></line>
+                    <line x1="3" y1="6" x2="21" y2="6"></line>
+                    <line x1="3" y1="18" x2="21" y2="18"></line>
+                </svg>
+            </button>
+        </div>
+    </nav>
+
+    <!-- HERO SECTION (What is Xuwer?) -->
+    <header class="hero" id="home">
+        <div class="hero-bg"></div>
+        <div class="hero-abstract"></div>
+        <div class="container hero-content">
+            <div class="hero-tag">Intelligent Matching System</div>
+            <h1 class="hero-title">Discover Businesses You'll Actually Love.</h1>
+            <p class="section-desc hero-desc" style="margin-top: 16px;">
+                Stop forcing yourself through endless, ad-filled search results. Xuwer connects you directly with businesses that genuinely match your lifestyle, goals, and needs.
+            </p>
+            <div class="hero-buttons">
+                <a href="#get-started" class="btn btn-primary">Start Discovering</a>
+                <a href="#how-it-works" class="btn btn-secondary">Learn More</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- PLATFORM PREVIEW (What does it look like?) -->
+    <section class="preview-section gs-reveal">
+        <div class="container">
+            <div class="preview-mockup">
+                <div class="preview-header">
+                    <div class="preview-dot" style="background:#ff5f56"></div>
+                    <div class="preview-dot" style="background:#ffbd2e"></div>
+                    <div class="preview-dot" style="background:#27c93f"></div>
+                </div>
+                <!-- Realistic Dashboard Mockup -->
+                <div class="mockup-body">
+                    <!-- Left Sidebar -->
+                    <div class="mockup-sidebar">
+                        <div class="ms-brand">
+                            <div class="logo-link">
+                                <img src="assets/icons/xuwer-icon.webp" alt="Xuwer Icon" class="logo-img" style="height:20px;" width="20" height="20">
+                                <span class="logo-text" style="font-size:16px;">Xuwer Network</span>
+                            </div>
+                        </div>
+                        <div class="ms-section">
+                            <div class="ms-title">Discover</div>
+                            <div class="ms-item active"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg> For You</div>
+                            <div class="ms-item"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg> Trending</div>
+                            <div class="ms-item"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"/></svg> Saved</div>
+                        </div>
+                        <div class="ms-section">
+                            <div class="ms-title">Categories</div>
+                            <div class="ms-item">Coffee &amp; Tea</div>
+                            <div class="ms-item">Fitness &amp; Health</div>
+                            <div class="ms-item">Creative Agencies</div>
+                        </div>
+                    </div>
+                    
+                    <!-- Main Feed -->
+                    <div class="mockup-main">
+                        <div class="mm-search-bar">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="var(--secondary)" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+                            <span class="placeholder-text">Search for a business or service...</span>
+                            <div class="mm-filter-btn"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="22 3 2 3 10 12.46 10 19 14 21 14 12.46 22 3"/></svg></div>
+                        </div>
+                        
+                        <div class="mm-feed">
+                            <!-- Card 1 -->
+                            <div class="mm-card">
+                                <div class="mm-card-img-wrapper">
+                                    <img src="assets/images/lumina-coffee.webp" alt="Lumina Coffee" class="mm-card-img" loading="lazy" decoding="async" width="800" height="800">
+                                </div>
+                                <div class="mm-card-info">
+                                    <div class="mm-card-header">
+                                        <div class="mm-card-title">
+                                            Lumina Coffee Roasters 
+                                            <svg class="verified-badge" width="14" height="14" viewBox="0 0 24 24" fill="var(--accent)" stroke="var(--bg-dark)" stroke-width="2" aria-hidden="true"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+                                        </div>
+                                        <div class="mm-actions">
+                                            <button class="mm-save-btn" aria-label="Save Lumina Coffee"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg></button>
+                                        </div>
+                                    </div>
+                                    <div class="mm-card-meta">
+                                        <div class="mm-rating">★ 4.9 <span style="color:var(--secondary)">(128)</span></div>
+                                        <div class="mm-meta-dot">•</div>
+                                        <div class="mm-distance">1.2 mi</div>
+                                        <div class="mm-meta-dot">•</div>
+                                        <div class="mm-status open">Open Now</div>
+                                    </div>
+                                    <div class="mm-card-tags">
+                                        <span class="mm-tag">Cafe</span><span class="mm-tag">Downtown</span>
+                                    </div>
+                                    <p class="mm-card-desc">Artisanal pour-overs and a quiet atmosphere. Perfect for deep work sessions.</p>
+                                    <div class="mm-card-footer">
+                                        <button class="mm-explore-btn">View Details</button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Card 2 -->
+                            <div class="mm-card">
+                                <div class="mm-card-img-wrapper">
+                                    <img src="assets/images/zenith-fitness.webp" alt="Zenith Fitness" class="mm-card-img" loading="lazy" decoding="async" width="800" height="800">
+                                </div>
+                                <div class="mm-card-info">
+                                    <div class="mm-card-header">
+                                        <div class="mm-card-title">
+                                            Zenith Fitness Studio
+                                            <svg class="verified-badge" width="14" height="14" viewBox="0 0 24 24" fill="var(--accent)" stroke="var(--bg-dark)" stroke-width="2" aria-hidden="true"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+                                        </div>
+                                        <div class="mm-actions">
+                                            <button class="mm-save-btn" aria-label="Save Zenith Fitness"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg></button>
+                                        </div>
+                                    </div>
+                                    <div class="mm-card-meta">
+                                        <div class="mm-rating">★ 4.8 <span style="color:var(--secondary)">(89)</span></div>
+                                        <div class="mm-meta-dot">•</div>
+                                        <div class="mm-distance">3.4 mi</div>
+                                        <div class="mm-meta-dot">•</div>
+                                        <div class="mm-status closing">Closes at 9PM</div>
+                                    </div>
+                                    <div class="mm-card-tags">
+                                        <span class="mm-tag">Gym</span><span class="mm-tag">Westside</span>
+                                    </div>
+                                    <p class="mm-card-desc">High-intensity functional training with personal coaching and small group sizes.</p>
+                                    <div class="mm-card-footer">
+                                        <button class="mm-explore-btn">View Details</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Right Panel (AI Insights) -->
+                    <div class="mockup-panel">
+                        <div class="mp-ai-box">
+                            <div class="mp-ai-header">
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="2"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
+                                AI Insight
+                            </div>
+                            <p class="mp-ai-desc">Lumina Coffee is a <strong style="color:var(--accent);">98% match</strong> based on your preference for quiet workspaces and specialty roasts.</p>
+                        </div>
+                        <div class="ms-section" style="margin-top: 24px;">
+                            <div class="ms-title">Recent Searches</div>
+                            <div class="mp-search-tag">Quiet cafes near me</div>
+                            <div class="mp-search-tag">Yoga classes</div>
+                            <div class="mp-search-tag">Web design agencies</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ABOUT XUWER SECTION -->
+    <section id="about" class="about-section gs-reveal">
+        <div class="about-bg-glow"></div>
+        <div class="container">
+            <div class="about-tag">About Xuwer</div>
+            <div class="about-grid">
+                <!-- Left: Content -->
+                <div class="about-content">
+                    <h2 class="about-title">Building Better Connections Between People and Businesses.</h2>
+                    <p class="about-desc">Xuwer is a modern business discovery platform designed to simplify how people find businesses they genuinely care about.</p>
+                    <p class="about-desc">Instead of overwhelming users with endless listings and advertisements, Xuwer intelligently recommends businesses based on interests, preferences, goals, and lifestyle.</p>
+                    <p class="about-desc">For businesses, Xuwer creates meaningful connections with customers who are already looking for what they offer.</p>
+                    <div class="about-goal">
+                        Help people discover better.<br>
+                        Help businesses grow smarter.
+                    </div>
+                </div>
+                <!-- Right: Abstract SVG Illustration -->
+                <div class="about-visual">
+                    <svg class="about-svg" viewBox="0 0 400 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <!-- Abstract Network / People Connection -->
+                        <circle cx="200" cy="200" r="140" stroke="var(--border)" stroke-width="1" stroke-dasharray="4 4" />
+                        <circle cx="200" cy="200" r="80" stroke="var(--accent)" stroke-width="1" opacity="0.5" />
+                        
+                        <!-- Nodes representing users/businesses -->
+                        <circle cx="200" cy="200" r="30" fill="var(--surface-hover)" stroke="var(--accent)" stroke-width="2" />
+                        <circle cx="200" cy="200" r="10" fill="var(--accent)" />
+                        
+                        <!-- Connecting Lines & Peripheral Nodes -->
+                        <path d="M200 200 L120 120" stroke="var(--secondary)" stroke-width="1.5" />
+                        <circle cx="120" cy="120" r="16" fill="var(--bg-dark)" stroke="var(--secondary)" stroke-width="2" />
+                        
+                        <path d="M200 200 L300 160" stroke="var(--secondary)" stroke-width="1.5" />
+                        <circle cx="300" cy="160" r="12" fill="var(--bg-dark)" stroke="var(--secondary)" stroke-width="2" />
+                        
+                        <path d="M200 200 L240 310" stroke="var(--secondary)" stroke-width="1.5" />
+                        <circle cx="240" cy="310" r="18" fill="var(--bg-dark)" stroke="var(--secondary)" stroke-width="2" />
+                        
+                        <!-- Subtle Glowing Orbs -->
+                        <circle cx="120" cy="120" r="4" fill="var(--accent)" />
+                        <circle cx="300" cy="160" r="3" fill="var(--accent)" />
+                        <circle cx="240" cy="310" r="5" fill="var(--accent)" />
+                    </svg>
+                </div>
+            </div>
+
+            <!-- Mission Cards -->
+            <div class="mission-cards">
+                <div class="mission-card">
+                    <div class="mc-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+                    </div>
+                    <h3 class="mc-title">Discover</h3>
+                    <p class="mc-desc">Help people discover businesses that truly match their interests.</p>
+                </div>
+                <div class="mission-card">
+                    <div class="mc-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+                    </div>
+                    <h3 class="mc-title">Connect</h3>
+                    <p class="mc-desc">Create meaningful relationships between customers and businesses.</p>
+                </div>
+                <div class="mission-card">
+                    <div class="mc-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 22h20"/><path d="M18 20V2"/><path d="M14 20v-6"/><path d="M10 20V8"/><path d="M6 20v-4"/></svg>
+                    </div>
+                    <h3 class="mc-title">Grow</h3>
+                    <p class="mc-desc">Empower businesses with highly relevant customers instead of random traffic.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FEATURES (Why should I use it?) -->
+    <section class="features gs-reveal" id="features">
+        <div class="container">
+            <h2>Why Choose Xuwer?</h2>
+            <p class="section-desc">We built a platform that respects your time and understands your exact needs.</p>
+            
+            <div class="features-grid">
+                
+                <!-- Card 1: Smart Discovery -->
+                <div class="feature-card premium-card">
+                    <div class="card-illustration">
+                        <svg class="ill-svg ill-discover" viewBox="0 0 400 250" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect width="400" height="250" fill="transparent"/>
+                            <circle cx="100" cy="80" r="4" fill="var(--secondary)" opacity="0.2"/>
+                            <circle cx="80" cy="180" r="3" fill="var(--secondary)" opacity="0.2"/>
+                            <circle cx="320" cy="70" r="5" fill="var(--secondary)" opacity="0.2"/>
+                            <circle cx="340" cy="190" r="4" fill="var(--secondary)" opacity="0.2"/>
+                            <path class="ill-path" d="M160,125 L240,125" stroke="var(--accent)" stroke-width="2" stroke-dasharray="4 4"/>
+                            <circle class="ill-node ill-user-node" cx="160" cy="125" r="12" fill="var(--primary)"/>
+                            <circle class="ill-node ill-target-node" cx="240" cy="125" r="16" fill="var(--accent)"/>
+                            <circle class="ill-ring" cx="240" cy="125" r="28" stroke="var(--accent)" stroke-width="1" opacity="0.5"/>
+                            <circle class="ill-ring-outer" cx="240" cy="125" r="45" stroke="var(--accent)" stroke-width="1" opacity="0.2"/>
+                        </svg>
+                    </div>
+                    <div class="card-content">
+                        <div class="card-icon">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+                        </div>
+                        <h3 class="card-title">Smart Discovery</h3>
+                        <p class="card-desc">Genuinely match with businesses based on lifestyle, goals, and AI-driven preferences.</p>
+                    </div>
+                </div>
+
+                <!-- Card 2: Targeted Reach -->
+                <div class="feature-card premium-card">
+                    <div class="card-illustration">
+                        <svg class="ill-svg ill-connect" viewBox="0 0 400 250" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect width="400" height="250" fill="transparent"/>
+                            <path d="M50,150 Q200,50 350,150" stroke="var(--secondary)" stroke-width="1" opacity="0.2" fill="none"/>
+                            <path class="ill-beam" d="M50,150 Q200,50 350,150" stroke="var(--accent)" stroke-width="3" fill="none" stroke-linecap="round"/>
+                            <circle cx="50" cy="150" r="6" fill="var(--primary)"/>
+                            <circle cx="350" cy="150" r="6" fill="var(--accent)"/>
+                        </svg>
+                    </div>
+                    <div class="card-content">
+                        <div class="card-icon">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg>
+                        </div>
+                        <h3 class="card-title">Targeted Reach</h3>
+                        <p class="card-desc">Businesses connect instantly with high-intent customers who are already looking for their exact services.</p>
+                    </div>
+                </div>
+
+                <!-- Card 3: Fast & Relevant -->
+                <div class="feature-card premium-card">
+                    <div class="card-illustration">
+                        <svg class="ill-svg ill-grow" viewBox="0 0 400 250" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect width="400" height="250" fill="transparent"/>
+                            <rect x="80" y="160" width="30" height="40" rx="4" fill="var(--secondary)" opacity="0.2"/>
+                            <rect x="160" y="120" width="30" height="80" rx="4" fill="var(--secondary)" opacity="0.4"/>
+                            <rect x="240" y="70" width="30" height="130" rx="4" fill="var(--accent)" opacity="0.8"/>
+                            <rect class="ill-bar-active" x="320" y="30" width="30" height="170" rx="4" fill="var(--accent)"/>
+                            <path class="ill-trajectory" d="M95,160 L175,120 L255,70 L335,30" stroke="var(--primary)" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+                            <circle class="ill-graph-dot" cx="335" cy="30" r="5" fill="var(--primary)"/>
+                        </svg>
+                    </div>
+                    <div class="card-content">
+                        <div class="card-icon">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"/><polyline points="17 6 23 6 23 12"/></svg>
+                        </div>
+                        <h3 class="card-title">Fast & Relevant</h3>
+                        <p class="card-desc">Skip the endless searching. Find personalized results and curated recommendations instantly.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- HOW IT WORKS (How does it work?) -->
+    <section class="how-it-works gs-reveal" id="how-it-works">
+        <div class="container">
+            <h2>How Xuwer Works</h2>
+            <p class="section-desc">Three simple steps to finding the perfect business connection.</p>
+            
+            <div class="steps-grid">
+                <div class="step-card">
+                    <div class="step-num">1</div>
+                    <h3 class="card-title">Discover</h3>
+                    <p class="card-desc">Tell us what you're looking for. Our algorithm learns your lifestyle and specific goals.</p>
+                </div>
+                <div class="step-card">
+                    <div class="step-num">2</div>
+                    <h3 class="card-title">Connect</h3>
+                    <p class="card-desc">We instantly match you with a curated list of businesses that fit your exact criteria.</p>
+                </div>
+                <div class="step-card">
+                    <div class="step-num">3</div>
+                    <h3 class="card-title">Grow</h3>
+                    <p class="card-desc">Build long-term relationships with businesses that actually care about your needs.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- WHO IS IT FOR? (Is it for me?) -->
+    <section class="who-is-it-for gs-reveal" id="why-xuwer">
+        <div class="container">
+            <h2>Who Uses Xuwer?</h2>
+            <p class="section-desc">Designed for modern consumers and forward-thinking businesses.</p>
+            
+            <!-- Categories -->
+            <div class="categories-wrap">
+                <div class="cat-pill">Students</div>
+                <div class="cat-pill">Professionals</div>
+                <div class="cat-pill">Small Startups</div>
+                <div class="cat-pill">Freelancers</div>
+                <div class="cat-pill">Restaurants</div>
+                <div class="cat-pill">Fitness</div>
+                <div class="cat-pill">Healthcare</div>
+                <div class="cat-pill">Technology</div>
+            </div>
+
+            <!-- Comparison Table -->
+            <div class="comparison-table">
+                <div class="comp-col">
+                    <h3 style="color: var(--secondary); margin-bottom: 24px;">Generic Search</h3>
+                    <div class="comp-item"><svg class="comp-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg> Random listings</div>
+                    <div class="comp-item"><svg class="comp-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg> Ads everywhere</div>
+                    <div class="comp-item"><svg class="comp-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg> Keyword-based (inaccurate)</div>
+                </div>
+                <div class="comp-col xuwer-col">
+                    <h3 style="color: var(--primary); margin-bottom: 24px;">Xuwer Matching</h3>
+                    <div class="comp-item"><svg class="comp-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6 9 17l-5-5"/></svg> Personalized discovery</div>
+                    <div class="comp-item"><svg class="comp-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6 9 17l-5-5"/></svg> Clean recommendations</div>
+                    <div class="comp-item"><svg class="comp-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6 9 17l-5-5"/></svg> Intent-based matching</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- STATS & TESTIMONIALS (Can I trust it?) -->
+    <section class="stats-testimonials gs-reveal" id="testimonials">
+        <div class="container">
+            
+            <div class="stats-grid">
+                <div>
+                    <div class="stat-num" data-target="20">0</div>
+                    <div class="stat-label">Businesses</div>
+                </div>
+                <div>
+                    <div class="stat-num" data-target="150">0</div>
+                    <div class="stat-label">Users</div>
+                </div>
+                <div>
+                    <div class="stat-num" data-target="95">0</div>
+                    <div class="stat-label">% Success</div>
+                </div>
+                <div>
+                    <div class="stat-num" data-target="40">0</div>
+                    <div class="stat-label">Categories</div>
+                </div>
+            </div>
+
+            <h2>Trusted by Thousands</h2>
+            <p class="section-desc">See what our community has to say about the Xuwer experience.</p>
+            
+            <div class="testimonials-grid">
+                <div class="test-card">
+                    <p class="test-text">"Xuwer completely changed how I find clients. No more fighting algorithms, just direct connections with people who actually need my services."</p>
+                    <div class="test-author">
+                        <div class="author-avatar" style="background: url('https://i.pravatar.cc/100?img=1') center/cover;"></div>
+                        <div class="author-info">
+                            <h4>Sarah Jenkins</h4>
+                            <p>Freelance Designer</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="test-card">
+                    <p class="test-text">"I found an incredible local coffee shop that fits my exact vibe in minutes. The recommendations are eerily accurate and always ad-free."</p>
+                    <div class="test-author">
+                        <div class="author-avatar" style="background: url('https://i.pravatar.cc/100?img=2') center/cover;"></div>
+                        <div class="author-info">
+                            <h4>David Chen</h4>
+                            <p>University Student</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="test-card">
+                    <p class="test-text">"As a small startup, customer acquisition cost is everything. Xuwer dropped our CAC by 40% by giving us high-intent leads instantly."</p>
+                    <div class="test-author">
+                        <div class="author-avatar" style="background: url('https://i.pravatar.cc/100?img=3') center/cover;"></div>
+                        <div class="author-info">
+                            <h4>Elena Rodriguez</h4>
+                            <p>Tech Startup Founder</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ (What concerns do I have?) -->
+    <section class="faq gs-reveal" id="faq">
+        <div class="container">
+            <h2>Frequently Asked Questions</h2>
+            <p class="section-desc">Everything you need to know about the platform and how it works.</p>
+            
+            <div class="faq-list">
+                <div class="faq-item">
+                    <button class="faq-q" aria-expanded="false">
+                        Is Xuwer completely free for users?
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m6 9 6 6 6-6"/></svg>
+                    </button>
+                    <div class="faq-a">
+                        <div class="faq-a-content">
+                            Yes! Xuwer is entirely free for individuals looking to discover businesses. You will never be charged for searching or receiving recommendations.
+                        </div>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-q" aria-expanded="false">
+                        How does the matching algorithm work?
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m6 9 6 6 6-6"/></svg>
+                    </button>
+                    <div class="faq-a">
+                        <div class="faq-a-content">
+                            Our proprietary AI looks beyond simple keywords. It analyzes your stated goals, lifestyle preferences, and location to connect you with businesses that have a proven track record in those exact areas.
+                        </div>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-q" aria-expanded="false">
+                        How do businesses get listed?
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m6 9 6 6 6-6"/></svg>
+                    </button>
+                    <div class="faq-a">
+                        <div class="faq-a-content">
+                            Businesses apply to join the network and undergo a verification process to ensure quality and authenticity. Once approved, they can set up their profile to start matching with targeted leads.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FINAL CTA (What should I do next?) -->
+    <section class="cta-section gs-reveal">
+        <div class="container">
+            <div class="cta-banner">
+                <h2 style="font-size: clamp(2rem, 5vw, 4rem);">Ready to find the perfect match?</h2>
+                <p class="section-desc" style="color: var(--primary);">Join 150,000+ users discovering better businesses today.</p>
+                <div class="hero-buttons">
+                    <a href="#get-started" class="btn btn-primary" style="padding: 16px 40px; font-size: 1.1rem;">Join Xuwer Now</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h2 class="logo">Xuwer.</h2>
+                    <p style="color: var(--secondary); font-size: 0.9rem; margin-top: 16px;">Intelligently connecting people with businesses they are genuinely interested in.</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Company</h4>
+                    <a href="#" class="footer-link">About Us</a>
+                    <a href="#" class="footer-link">Careers</a>
+                    <a href="#" class="footer-link">Press</a>
+                    <a href="#" class="footer-link">Contact</a>
+                </div>
+                <div class="footer-col">
+                    <h4>Legal</h4>
+                    <a href="#" class="footer-link">Privacy Policy</a>
+                    <a href="#" class="footer-link">Terms of Service</a>
+                    <a href="#" class="footer-link">Cookie Policy</a>
+                </div>
+                <div class="footer-col">
+                    <h4>Social</h4>
+                    <a href="#" class="footer-link">
+                        <svg class="social-icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M18.901 1.153h3.68l-8.04 9.19L24 22.846h-7.406l-5.8-7.584-6.638 7.584H.474l8.6-9.83L0 1.154h7.594l5.243 6.932ZM17.61 20.644h2.039L6.486 3.24H4.298Z"/></svg>
+                        Twitter / X
+                    </a>
+                    <a href="#" class="footer-link">
+                        <svg class="social-icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+                        LinkedIn
+                    </a>
+                    <a href="#" class="footer-link">
+                        <svg class="social-icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C8.74 0 8.333.015 7.053.072 5.775.132 4.905.333 4.14.63c-.789.306-1.459.717-2.126 1.384S.935 3.35.63 4.14C.333 4.905.131 5.775.072 7.053.012 8.333 0 8.74 0 12s.015 3.667.072 4.947c.06 1.277.261 2.148.558 2.913.306.788.717 1.459 1.384 2.126.667.666 1.336 1.079 2.126 1.384.766.296 1.636.499 2.913.558C8.333 23.988 8.74 24 12 24s3.667-.015 4.947-.072c1.277-.06 2.148-.262 2.913-.558.788-.306 1.459-.718 2.126-1.384.666-.667 1.079-1.335 1.384-2.126.296-.765.499-1.636.558-2.913.06-1.28.072-1.687.072-4.947s-.015-3.667-.072-4.947c-.06-1.277-.262-2.149-.558-2.913-.306-.789-.718-1.459-1.384-2.126C21.319 1.347 20.651.935 19.86.63c-.765-.297-1.636-.499-2.913-.558C15.667.012 15.26 0 12 0zm0 2.16c3.203 0 3.585.016 4.85.071 1.17.055 1.805.249 2.227.415.562.217.96.477 1.382.896.419.42.679.819.896 1.381.164.422.359 1.057.413 2.227.057 1.266.07 1.646.07 4.85s-.015 3.585-.074 4.85c-.061 1.17-.256 1.805-.421 2.227-.224.562-.479.96-.899 1.382-.419.419-.824.679-1.38.896-.42.164-1.065.344-2.235.411-1.274.057-1.649.07-4.859.07-3.211 0-3.586-.015-4.859-.074-1.171-.061-1.816-.256-2.236-.421-.569-.224-.96-.479-1.379-.899-.421-.419-.69-.824-.9-1.38-.165-.42-.359-1.065-.42-2.235-.045-1.26-.061-1.649-.061-4.844 0-3.196.016-3.586.061-4.861.061-1.17.255-1.814.42-2.234.21-.57.479-.96.9-1.381.419-.419.81-.689 1.379-.898.42-.166 1.051-.361 2.221-.421 1.275-.045 1.65-.06 4.859-.06l.045.03zm0 3.678c-3.405 0-6.162 2.76-6.162 6.162 0 3.405 2.756 6.162 6.162 6.162 3.405 0 6.162-2.757 6.162-6.162 0-3.402-2.757-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+                        Instagram
+                    </a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="footer-brand">
+                    <div class="logo-link" style="margin-bottom: var(--space-2);">
+                        <img src="assets/icons/xuwer-icon.webp" alt="Xuwer Icon" class="logo-img" style="height:28px;" loading="lazy" decoding="async" width="28" height="28">
+                        <span class="logo-text" style="font-size:24px;">Xuwer</span>
+                    </div>
+                    <p>&copy; 2026 Xuwer Inc. All rights reserved.</p>
+                </div>
+                <p>Made with ❤️ by Suyog Vaishnav</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
